@@ -4,9 +4,9 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       <main className="px-5 py-10 lg:py-[120px] xl:px-[12.5%]">
-        <div className="flex flex-col gap-10 lg:flex-row lg:justify-between lg:gap-10">
+        <div className="flex flex-col gap-10 lg:flex-row lg:justify-between lg:gap-10 [&_section]:transition-opacity [&_section]:duration-300 has-[section:hover]:[&_section]:opacity-50 has-[section:hover]:[&_section:hover]:opacity-100">
           {/* ── Left Side ── */}
-          <div className="flex w-full max-w-[640px] flex-col gap-10 lg:gap-[120px]">
+          <div className="flex w-full max-w-[642px] flex-col gap-10 lg:gap-[120px]">
           {/* ── Performance ── */}
           <section className="left-side flex w-full flex-col items-start text-left lg:items-center lg:text-center lg:border lg:border-[#00000029] lg:rounded-[32px] lg:p-2 lg:pt-6 lg:pb-2">
             <span className="inline-flex items-center gap-1 lg:gap-2 font-[700] rounded-full bg-[#9DC332] tracking-[-0.1] lg:tracking-[0.057] px-3 py-[2px] lg:px-4 lg:py-1 text-[12px] lg:text-[14px] font-bold uppercase leading-none h-[25px] lg:h-8 text-white">
@@ -32,7 +32,7 @@ export default function Home() {
                 alt="Code editor performance preview"
                 width={624}
                 height={640}
-                className="hidden h-auto w-full object-contain lg:block lg:h-[640px]"
+                className="hidden h-auto w-full object-contain lg:block lg:h-[624px]"
                 priority
               />
               <Image
@@ -117,7 +117,7 @@ export default function Home() {
                 alt="AI assistant Windows management interface"
                 width={624}
                 height={640}
-                className="hidden h-auto w-full object-contain lg:block lg:h-[640px]"
+                className="hidden h-auto w-full object-contain lg:block lg:h-[624px]"
               />
               <Image
                 src="/assets/Image 03/Mobile/Image.png"
@@ -167,7 +167,7 @@ export default function Home() {
           </div>
 
           {/* ── Right Side ── */}
-          <div className="right-side flex w-full max-w-[640px] flex-col gap-16 lg:gap-[120px]">
+          <div className="right-side flex w-full max-w-[642px] flex-col gap-16 lg:gap-[120px]">
             <section className="flex w-full flex-col items-start text-left lg:items-center lg:text-center lg:border lg:border-[#00000029] lg:rounded-[32px] lg:p-2 lg:pt-6 lg:pb-2">
               <span className="inline-flex items-center gap-1 lg:gap-2 font-[700] rounded-full bg-[#9DC332] tracking-[-0.1] lg:tracking-[0.057] px-3 py-[2px] lg:px-4 lg:py-1 text-[12px] lg:text-[14px] font-bold uppercase leading-none h-[25px] lg:h-8 text-white">
               <LightningIcon className="size-[12px] shrink-0" />
@@ -194,7 +194,7 @@ export default function Home() {
                   alt="Plesk management dashboard"
                   width={624}
                   height={640}
-                  className="hidden h-auto w-full object-contain lg:block lg:h-[640px]"
+                  className="hidden h-auto w-full object-contain lg:block lg:h-[624px]"
                 />
                 <Image
                   src="/assets/Image 02/Mobile/Image.png"
