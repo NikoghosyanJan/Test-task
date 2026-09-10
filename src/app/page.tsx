@@ -530,7 +530,6 @@ function N8nIcon({ className }: { className?: string }) {
               height={1702.6}
             >
               <div
-                xmlns="http://www.w3.org/1999/xhtml"
                 style={{
                   background:
                     "conic-gradient(from 90deg,rgba(0, 145, 255, 1) 0deg,rgba(255, 2, 240, 1) 134.673deg,rgba(237, 95, 0, 1) 187.2deg,rgba(121, 72, 207, 1) 269.007deg,rgba(0, 145, 255, 1) 360deg)",
@@ -616,7 +615,6 @@ function N8nIcon({ className }: { className?: string }) {
                   height={1702.6}
                 >
                   <div
-                    xmlns="http://www.w3.org/1999/xhtml"
                     style={{
                       background:
                         "conic-gradient(from 90deg,rgba(0, 145, 255, 1) 0deg,rgba(255, 2, 240, 1) 134.673deg,rgba(237, 95, 0, 1) 187.2deg,rgba(121, 72, 207, 1) 269.007deg,rgba(0, 145, 255, 1) 360deg)",
